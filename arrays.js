@@ -10,7 +10,7 @@ for (let i = 0; i < students.length;i++) {
 }
 
 
-// name few functions that come with arrays, that allow you to interate through the elements
+// name few functions that come with arrays, that allow you to iterate through the elements
 
 // students.forEach()
 // students.map()
@@ -26,3 +26,15 @@ for (let i = 0; i < students.length;i++) {
 //       console.log("the element is " + value + " and its index is " + index)
 //    } 
 // )
+
+let myFriends = new Array();
+
+
+myFriends.push("farhan");
+myFriends.push("ali");
+myFriends.push("zainab");
+myFriends.push("ali");
+myFriends.push("mohammed");
+
+console.log(myFriends)
+
